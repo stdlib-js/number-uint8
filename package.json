@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/number-uint8",
+  "version": "0.0.0",
+  "description": "Utilities for unsigned 8-bit integers.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/number-uint8.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "namespace",
+    "ns",
+    "uint8",
+    "unsigned",
+    "integer",
+    "int",
+    "8-bit"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
