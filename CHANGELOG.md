@@ -2,14 +2,17 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.3">
 
-## Unreleased (2025-07-14)
+## 0.2.3 (2026-02-08)
 
 <section class="features">
 
 ### Features
 
+-   [`9ba40f2`](https://github.com/stdlib-js/stdlib/commit/9ba40f27deb2f5bafaccdebe3c18dd7bb0e53e3f) - update `number/uint8/base` TypeScript declarations
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - add missing exports to namespaces
+-   [`b3414ca`](https://github.com/stdlib-js/stdlib/commit/b3414caabdd328fef1e0a44410a21cc5b7410571) - add `number/uint8/base/identity` [(#7848)](https://github.com/stdlib-js/stdlib/pull/7848)
 -   [`05579b9`](https://github.com/stdlib-js/stdlib/commit/05579b92d37e65644945028a3d12ba8d0b36f188) - add `mul` to namespace
 -   [`169c8cb`](https://github.com/stdlib-js/stdlib/commit/169c8cb745f97bbb0260c82fa4f7ccc56d3b9ed7) - add `number/uint8/base/mul`
 -   [`465c484`](https://github.com/stdlib-js/stdlib/commit/465c484235dbfba4c323c9913c4091e6d628374a) - add `sub` to namespace
@@ -27,6 +30,21 @@
 
 <details>
 
+-   [`0a1fd8e`](https://github.com/stdlib-js/stdlib/commit/0a1fd8e1abf27f34bcab5011b55f624b4d33ac27) - **bench:** refactor to use string interpolation in `number/uint8/base/identity` [(#8943)](https://github.com/stdlib-js/stdlib/pull/8943) _(by Krishna Awasthi)_
+-   [`45e4ab4`](https://github.com/stdlib-js/stdlib/commit/45e4ab474aeb331cc44490e90c173ee597a6c1d0) - **bench:** refactor to use string interpolation in `number/uint8/base/add` [(#8942)](https://github.com/stdlib-js/stdlib/pull/8942) _(by Krishna Awasthi)_
+-   [`afbf4d2`](https://github.com/stdlib-js/stdlib/commit/afbf4d2bfd3c526245c83f40967cf6887dbee703) - **bench:** refactor to use string interpolation in `number/uint8/base/sub` [(#8941)](https://github.com/stdlib-js/stdlib/pull/8941) _(by Krishna Awasthi)_
+-   [`6a9445c`](https://github.com/stdlib-js/stdlib/commit/6a9445cb7115b3a6c90bfbd3364c809343491543) - **bench:** refactor to use string interpolation in `number/uint8/base/mul` [(#8905)](https://github.com/stdlib-js/stdlib/pull/8905) _(by Krishna Awasthi)_
+-   [`7db5b32`](https://github.com/stdlib-js/stdlib/commit/7db5b32afe976e2d3c216a45e0927c88e668d340) - **chore:** add `alias_prefix` to parent namespaces [(#8540)](https://github.com/stdlib-js/stdlib/pull/8540) _(by Gunj Joshi)_
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`9ba40f2`](https://github.com/stdlib-js/stdlib/commit/9ba40f27deb2f5bafaccdebe3c18dd7bb0e53e3f) - **feat:** update `number/uint8/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`774b270`](https://github.com/stdlib-js/stdlib/commit/774b270d053d49740326553d549f698c7a5e94c8) - **feat:** add missing exports to namespaces _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`7483bef`](https://github.com/stdlib-js/stdlib/commit/7483bef13b1d3241347266d25a02957269419825) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`8c20ca4`](https://github.com/stdlib-js/stdlib/commit/8c20ca47e294c672e2261ca79452861dc3dd0764) - **bench:** fix types in C benchmarks [(#7865)](https://github.com/stdlib-js/stdlib/pull/7865) _(by Gunj Joshi)_
+-   [`b5cb6da`](https://github.com/stdlib-js/stdlib/commit/b5cb6da6915e43b4f3aec2387d3e2cd9f9b0999d) - **docs:** replace `integer` by `uinteger` in JSDocs [(#7866)](https://github.com/stdlib-js/stdlib/pull/7866) _(by Gunj Joshi)_
+-   [`1a121d7`](https://github.com/stdlib-js/stdlib/commit/1a121d7bf505791d601cf733a37eded4b18d8876) - **docs:** fix missing includes _(by Athan Reines)_
+-   [`b3414ca`](https://github.com/stdlib-js/stdlib/commit/b3414caabdd328fef1e0a44410a21cc5b7410571) - **feat:** add `number/uint8/base/identity` [(#7848)](https://github.com/stdlib-js/stdlib/pull/7848) _(by Gunj Joshi)_
 -   [`5896836`](https://github.com/stdlib-js/stdlib/commit/5896836635aa28aba7c97b3f21d32735d867c43b) - **build:** add package meta data _(by Athan Reines)_
 -   [`6c6fd79`](https://github.com/stdlib-js/stdlib/commit/6c6fd79627e1c79e5f98e53a05456057986c911a) - **build:** add package meta data _(by Athan Reines)_
 -   [`6803252`](https://github.com/stdlib-js/stdlib/commit/68032524e51f5f6b82e06e13253836ec5a539c40) - **build:** add package meta data _(by Athan Reines)_
@@ -53,9 +71,12 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gunj Joshi
+-   Krishna Awasthi
+-   Philipp Burckhardt
 
 </section>
 
